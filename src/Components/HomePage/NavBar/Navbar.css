@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    padding: 1.875rem 2.5rem;
+    padding: 0 2.5rem;
     margin: 0 7.81rem;
     border: 1px solid rgba(128, 128, 128, 0.581);
 }
@@ -12,4 +12,33 @@
 .n-right>img {
     width: 8.38125rem;
     height: 1.6875rem;
+}
+
+.n-list {
+    display: flex;
+    justify-content: center;
+    /* gap: 1rem; */
+    list-style: none;
+    cursor: pointer;
+}
+
+.n-list>li {
+    border: 1px solid rgba(128, 128, 128, 0.186);
+    border-radius: 1px;
+    padding: .875rem 3.125rem;
+}
+
+.n-list>li:hover {
+    background: rgba(128, 128, 128, 0.39);
+}
+
+.n-left>button {
+    border-radius: 0.625rem;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.n-left>button:hover{
+    background: var(--Dark-12, #313134);
 }

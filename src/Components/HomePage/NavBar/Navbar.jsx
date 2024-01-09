@@ -9,10 +9,17 @@ const Navbar = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="n-mid">
-                <div className="n-list"></div>
+                <div>
+                    <ul className="n-list">
+                        <li>Home</li>
+                        <li>About me</li>
+                        <li>Protfolio</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
             </div>
             <div className="n-left">
-                <p>right side</p>
+                <button>Contact</button>
             </div>
         </div>
     );
