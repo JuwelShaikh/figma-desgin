@@ -8,14 +8,15 @@
     align-items: center;
 }
 .h-left{
+    width: 20rem;
     display: flex;
     flex-direction: column;
-
-    border: 1px solid white;
+    align-items: flex-start;
     text-transform: uppercase;
     padding: 0;
 }
 .h-left>span{
+    padding-left: 0px;
     font-weight: 100;
     font-size: smaller;
 }
