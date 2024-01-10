@@ -7,7 +7,8 @@
     justify-content: space-around;
     align-items: center;
 }
-.h-left{
+
+.h-left {
     width: 20rem;
     display: flex;
     flex-direction: column;
@@ -15,10 +16,28 @@
     text-transform: uppercase;
     padding: 0;
 }
-.h-left>span{
+
+.h-left>span {
     padding-left: 0px;
     font-weight: 100;
     font-size: smaller;
 }
 
-
+.h-right {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-transform: uppercase;
+}
+.h-btn{
+    background: var(--Purple-55, #4A2CED);
+    border-radius: 6.25rem;
+    cursor: pointer;
+}
+.h-btn>img {
+    padding: 0rem 2rem;
+    box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+    border-radius: 6.25rem;
+    background: var(--Purple-55, #4A2CED);
+}
