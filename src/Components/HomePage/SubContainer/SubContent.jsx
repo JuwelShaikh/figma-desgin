@@ -3,6 +3,9 @@ import '../SubContainer/Subcontent.css';
 import dot from '../../../Images/dot.png';
 
 const SubContent = () => {
+    
+
+
     return (
         <div className='sub-content'>
             <div className="s-content">
@@ -11,27 +14,27 @@ const SubContent = () => {
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>COMERCIAL PHOTOGRAPHY</p>
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>POTRAIT PHOTOGRAPHY</p>
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>WEDDING PHOTOGRAPHY</p>
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>LANDSCAPE PHOTOGRAPHY</p>
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>BRANDING PHOTOGRAPHY</p>
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>EVENT PHOTOGRAPHY</p>
+                <p>OUTDOOR PHOTOGRAPHY</p>
             </div>
         </div>
     );
