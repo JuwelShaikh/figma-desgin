@@ -7,7 +7,8 @@ const SubContent = () => {
 
 
     return (
-        <div className='sub-content'>
+       <div className="main-content">
+         <div className='sub-content'>
             <div className="s-content">
                 <img src={dot} alt="" />
                 <p>EVENT PHOTOGRAPHY</p>
@@ -37,6 +38,7 @@ const SubContent = () => {
                 <p>OUTDOOR PHOTOGRAPHY</p>
             </div>
         </div>
+       </div>
     );
 };
 
