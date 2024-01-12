@@ -11,13 +11,15 @@ const PhotoContent = () => {
     return (
         <div className='main-content'>
             <div className="p-container">
-                <div className="g1">
-                    <img src={girl1} alt="" />
+                <div id="p-one">
+                    <div className="g-1">
+                        <img src={girl1} alt="" />
+                    </div>
+                    <div className="g-2">
+                        <img src={girl2} alt="" />
+                    </div>
                 </div>
-                <div className="g-2">
-                    <img src={girl2} alt="" />
-                </div>
-                <div className="imgg-3">
+                <div className="g-3">
                     <img src={girl3} alt="" />
                 </div>
                 <div className="b-1">
