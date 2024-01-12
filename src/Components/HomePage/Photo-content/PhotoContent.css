@@ -1,0 +1,18 @@
+.main-content {
+    width: 100%;
+    height: auto;
+}
+.p-container{
+    width: 80%;
+    display: flex;
+}
+.g-2{
+    width: 30px;
+    position: absolute;
+    top: 39rem;
+}
+.g-2>img{
+    width: 8rem;
+}
+
+
