@@ -34,6 +34,7 @@
 }
 
 .s-content>p{
+    text-transform: uppercase;
     margin-top: 0.1rem;
     color: var(--Purple-90, #D6D0FB);
     font-family: Manrope;

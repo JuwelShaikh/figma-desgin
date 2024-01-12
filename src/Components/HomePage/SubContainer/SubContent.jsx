@@ -35,7 +35,7 @@ const SubContent = () => {
             </div>
             <div className="s-content">
                 <img src={dot} alt="" />
-                <p>OUTDOOR PHOTOGRAPHY</p>
+                <p>Lorem ipsum.</p>
             </div>
         </div>
        </div>
