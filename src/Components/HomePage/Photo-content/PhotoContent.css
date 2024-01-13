@@ -1,31 +1,51 @@
 .main-content {
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
-.p-container{
+
+.p-container {
     width: 80%;
     display: flex;
 }
-#p-one{
-    width: 26rem;
+
+.g-1 {
+    width: 32rem;
+    height: 22rem;
 }
-.g-2{
-    width: 30px;
+
+.g-2 {
     position: absolute;
-    top: 39rem;
-}
-.g-2>img{
     width: 8rem;
+    height: 10rem;
+    top: 39rem;
+    left: 0;
 }
-.g-3{
+
+.g-3 {
     position: absolute;
     top: 26rem;
     left: 8.5rem;
 }
-.g-3>img{
+
+.g-3>img {
     width: 32rem;
+    height: 22.6rem;
 }
-.b-1>img{
-    /* width: 37rem; */
-    height: 29rem;
+.g-4{
+    width: 17rem;
+    height: 18.4rem;
+}
+
+.b-1 {
+    width: 38rem;
+    height: 32rem;
+}
+
+.b-2 {
+    position: absolute;
+    width: 17rem;
+    height: 13rem;
+    top: 35.3rem;
+    right: 0.7rem;
 }
