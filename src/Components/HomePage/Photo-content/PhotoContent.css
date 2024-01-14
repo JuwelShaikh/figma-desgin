@@ -2,9 +2,11 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    margin: 0 0.1px;
 }
 
 .p-container {
+    position: relative;
     width: 80%;
     display: flex;
 }
@@ -17,14 +19,14 @@
 .g-2 {
     position: absolute;
     width: 8rem;
-    height: 10rem;
-    top: 39rem;
+    height: 9rem;
+    top: 22.5rem;
     left: 0;
 }
 
 .g-3 {
     position: absolute;
-    top: 26rem;
+    top: 9rem;
     left: 8.5rem;
 }
 
@@ -44,8 +46,8 @@
 
 .b-2 {
     position: absolute;
-    width: 17rem;
+    width: 16.9rem;
     height: 13rem;
-    top: 35.3rem;
-    right: 0.7rem;
+    top: 18.7rem;
+    left: 70rem;
 }
