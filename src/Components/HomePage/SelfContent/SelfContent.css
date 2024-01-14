@@ -61,8 +61,8 @@
     margin-bottom: 5rem;
 }
 
-.s-abt-container{
-    width: 80%;
+.s-abt-container {
+    
     height: auto;
     margin-top: 4rem;
     display: flex;
@@ -70,6 +70,32 @@
     margin-bottom: 5rem;
 }
 
-.abt-left>img{
-    width: 23rem;
+.abt-left>img {
+    width: 28rem;
+    height: 25rem;
+}
+
+.abt-right {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.intro {
+    display: flex;
+
+}
+
+.intro>h3 {
+    color: var(--Grey-80, #CACACE);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.intro>img{
+    width: 2.4375rem;
+height: 2.5rem;
 }

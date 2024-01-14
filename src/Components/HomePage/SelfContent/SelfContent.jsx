@@ -1,6 +1,7 @@
 import React from 'react';
 import '../SelfContent/SelfContent.css';
-import selfPhoto from '../../../Images/Self photo.png'
+import selfPhoto from '../../../Images/Self photo.png';
+import glow from '../../../Images/glow.png';
 
 const SelfContent = () => {
     return (
@@ -19,7 +20,14 @@ const SelfContent = () => {
                     <div className="abt-left">
                         <img src={selfPhoto} alt="" />
                     </div>
-                    <div className="abt-right">Right</div>
+                    <div className="abt-right">
+                        <div className="intro">
+                            <img src={glow} alt="" /><h3>Introduction</h3>
+                        </div>
+                        <div className="contact">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti modi totam fugiat, 
+                        </div>
+                    </div>
                 </div>
             </div>
 
