@@ -9,10 +9,10 @@
 .s-container {
     width: 80%;
     height: auto;
-    border-bottom: 1px solid var(--Dark-12, #1C1C21);
 }
 
 .s-about {
+    border-bottom: 1px solid var(--Dark-12, #1C1C21);
     display: flex;
     justify-content: space-between;
 }
@@ -38,6 +38,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    padding-bottom: 3rem;
 }
 
 .s-right-side {
@@ -48,10 +49,27 @@
     padding: 0.5rem 1rem;
     border-radius: 0.625rem;
     border: 1px solid #2F2F37;
-
     background: var(--Dark-12, #1C1C21);
 }
-.s-right-side>button:hover{
+
+.s-right-side>button:hover {
     background: var(--Dark-12, #39393f);
     cursor: pointer;
+}
+
+.s-about {
+    margin-bottom: 5rem;
+}
+
+.s-abt-container{
+    width: 80%;
+    height: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.abt-left>img{
+    width: 23rem;
 }
