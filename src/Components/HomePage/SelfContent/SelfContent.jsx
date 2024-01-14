@@ -3,8 +3,8 @@ import '../SelfContent/SelfContent.css';
 
 const SelfContent = () => {
     return (
-        <div className='main-content'>
-            <div className="container"></div>
+        <div className='self-container'>
+            <div className="s-container"></div>
 
         </div>
     );
