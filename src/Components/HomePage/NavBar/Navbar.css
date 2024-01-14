@@ -1,11 +1,16 @@
+
+.n-container{
+    display: flex;
+    justify-content: center;
+}
 .navBar {
-    /* width: 80%; */
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
     padding: 0 2.5rem;
-    margin: 0 7.81rem;
+    /* margin: 0 7.81rem; */
     border: 1px solid rgba(128, 128, 128, 0.581);
 }
 
@@ -30,6 +35,7 @@
 
 .n-list>li:hover {
     background: rgba(128, 128, 128, 0.39);
+    border-top-left-radius: 10px;
 }
 
 .n-left>button {
