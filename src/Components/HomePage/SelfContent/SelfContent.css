@@ -62,7 +62,7 @@
 }
 
 .s-abt-container {
-    
+
     height: auto;
     margin-top: 4rem;
     display: flex;
@@ -78,24 +78,63 @@
 .abt-right {
     border: 1px solid white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .intro {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
 
 }
 
-.intro>h3 {
+.intro>div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.intro>div>h3 {
     color: var(--Grey-80, #CACACE);
-    font-size: 1rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
 }
-.intro>img{
-    width: 2.4375rem;
-height: 2.5rem;
+
+.intro>div>img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 6px;
+}
+
+.intro>p {
+    text-align: left;
+    color: var(--Grey-70, #AFB0B6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.contact>div {
+    display: flex;
+    justify-content: center;
+}
+
+.contact>div>h3 {
+    color: var(--Grey-80, #CACACE);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.contact>div>img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 6px;
 }

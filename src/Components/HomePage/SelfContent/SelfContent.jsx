@@ -22,10 +22,16 @@ const SelfContent = () => {
                     </div>
                     <div className="abt-right">
                         <div className="intro">
-                            <img src={glow} alt="" /><h3>Introduction</h3>
+                            <div>
+                                <img src={glow} alt="" /><h3>Introduction</h3>
+                            </div>
+                            <p>My journey as a photographer has been a lifelong quest to capture the extraordinary in the ordinary, to freeze fleeting moments in time, and to share the world's beauty as I see it. Based in the enchanting landscapes of the USA, I find inspiration in every corner of this diverse and vibrant country. Join me as we embark on a visual odyssey, where each photograph tells a story, and every frame is a piece of my heart.</p>
                         </div>
                         <div className="contact">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti modi totam fugiat, 
+                            <div>
+                                <img src={glow} alt="" /><h3>Contact Information</h3>
+                            </div>
+                            <div className="phone-email"></div>
                         </div>
                     </div>
                 </div>
