@@ -31,7 +31,16 @@ const SelfContent = () => {
                             <div>
                                 <img src={glow} alt="" /><h3>Contact Information</h3>
                             </div>
-                            <div className="phone-email"></div>
+                            <div className="phone-email">
+                                <div className="email">
+                                    <h5>Email</h5>
+                                    <p>damienbraun@gmail.com</p>
+                                </div>
+                                <div className="phone">
+                                <h5>Phone</h5>
+                                    <p>+00 000000000</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -116,12 +116,14 @@
     font-style: normal;
     font-weight: 400;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2rem;
 }
+
 .contact>div {
     display: flex;
     justify-content: center;
@@ -133,8 +135,37 @@
     font-style: normal;
     font-weight: 500;
 }
+
 .contact>div>img {
     width: 2rem;
     height: 2rem;
     margin-top: 6px;
+}
+
+.phone-email {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.email>h5 {
+    color: var(--Grey-90, #E4E4E6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.email>p {
+    color: var(--Grey-70, #AFB0B6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
 }
