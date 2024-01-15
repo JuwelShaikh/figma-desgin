@@ -2,6 +2,9 @@ import React from 'react';
 import '../SelfContent/SelfContent.css';
 import selfPhoto from '../../../Images/Self photo.png';
 import glow from '../../../Images/glow.png';
+import facebook from '../../../Images/Facebook.png';
+import twitter from '../../../Images/Twitter.png';
+import linkedin from '../../../Images/Linkedin.png';
 
 const SelfContent = () => {
     return (
@@ -42,8 +45,15 @@ const SelfContent = () => {
                                 </div>
                             </div>
                             <div className="links">
-                                <div className="icons"></div>
-                                <div className="btns"></div>
+                                <div className="icons">
+                                    <img src={facebook} alt="" />
+                                    <img src={twitter} alt="" />
+                                    <img src={linkedin} alt="" />
+                                </div>
+                                <div className="btns">
+                                    <button>Let's work</button>
+                                    <button>Download CV</button>
+                                </div>
                             </div>
                         </div>
                     </div>
