@@ -41,6 +41,10 @@ const SelfContent = () => {
                                     <p>+00 000000000</p>
                                 </div>
                             </div>
+                            <div className="links">
+                                <div className="icons"></div>
+                                <div className="btns"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
