@@ -121,7 +121,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .contact>div {
@@ -143,8 +143,8 @@
 }
 
 .phone-email {
-    display: flex;
     margin-top: 2rem;
+    gap: 1rem;
 }
 
 .email {
@@ -169,3 +169,24 @@
     font-weight: 400;
     line-height: 90%;
 }
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.phone>h5 {
+    color: var(--Grey-90, #E4E4E6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+.phone>p {
+    color: var(--Grey-70, #AFB0B6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+}
+
