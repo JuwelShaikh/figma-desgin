@@ -76,7 +76,6 @@
 }
 
 .abt-right {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -86,8 +85,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem;
-
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--Dark-12, #1C1C21);
 }
 
 .intro>div {
@@ -122,6 +121,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem 2rem;
+    
 }
 
 .contact>div {
@@ -143,7 +143,7 @@
 }
 
 .phone-email {
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 1rem;
 }
 
