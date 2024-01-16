@@ -29,7 +29,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="highlights">
-                        
+                        ........................
                     </div>
                 </div>
                 <div className="eRightSide">right</div>
