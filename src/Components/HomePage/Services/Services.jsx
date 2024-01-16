@@ -4,6 +4,7 @@ import leftIcon from '../../../Images/left-icon.png';
 import rightIcon from '../../../Images/Right-icon.png';
 import arrow from '../../../Images/Arrow.png';
 import dot from '../../../Images/dot.png';
+import concert from '../../../Images/concert.png';
 
 const Services = () => {
     return (
@@ -39,7 +40,9 @@ const Services = () => {
                         </ol>
                     </div>
                 </div>
-                <div className="eRightSide">right</div>
+                <div className="eRightSide">
+                    <img src={concert} alt="" />
+                </div>
 
             </div>
         </div>
