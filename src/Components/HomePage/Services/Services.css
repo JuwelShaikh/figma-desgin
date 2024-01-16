@@ -72,11 +72,11 @@
 }
 
 .event-service {
-    border: 1px solid white;
     width: 80%;
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .events>div>h1 {
@@ -117,13 +117,11 @@
     padding: 1rem 1rem;
     align-items: center;
     gap: 0.625rem;
-    align-self: stretch;
     color: var(--Grey-70, #AFB0B6);
-    font-size: 1rem;
+    font-size: 0.93rem;
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
-    /* 1.6875rem */
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -131,5 +129,14 @@
 .highlights>ol>li>img {
     width: 1rem;
     color: #45454d69;
-    
+
+}
+
+.eRightSide>img {
+    border-radius: 1.25rem 1.25rem 1.25rem 6.25rem;
+    background: url('../../../Images/concert.png'), lightgray 50% / cover no-repeat;
+    height: 28rem;
+    flex: 1 0 0;
+
+
 }
