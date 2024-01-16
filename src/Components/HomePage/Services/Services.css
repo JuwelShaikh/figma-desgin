@@ -1,0 +1,63 @@
+.Ser-main {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.photo-service {
+    border-bottom: 1px solid var(--Dark-12, #1C1C21);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.sLeftSide {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.sLeftSide>span {
+    color: var(--Grey-50, #797C86);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sLeftSide>p {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sRightSide {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sRightSide>button {
+    border-radius: 6.25rem;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+}
+
+.sRightSide>button>img {
+    border-radius: 6.25rem;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+}
+
+#btn-src {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.625rem;
+    border: 1px solid #2F2F37;
+    background: var(--Dark-12, #1C1C21);
+}
