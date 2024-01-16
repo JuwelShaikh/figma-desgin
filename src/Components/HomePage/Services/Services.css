@@ -1,6 +1,7 @@
 .Ser-main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 5rem 0;
 }
 
@@ -10,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .sLeftSide {
@@ -60,4 +61,36 @@
     border-radius: 0.625rem;
     border: 1px solid #2F2F37;
     background: var(--Dark-12, #1C1C21);
+}
+
+.events {
+    text-align: justify;
+}
+.eLeftSide{
+    width: 50%;
+}
+
+.event-service {
+    border: 1px solid white;
+    width: 80%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events>div>h1 {
+    color: var(--Grey-50, #797C86);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.e-content>* {
+    color: var(--Grey-50, #797C86);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
 }

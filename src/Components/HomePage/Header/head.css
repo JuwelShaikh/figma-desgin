@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 .h-btn>img {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
     box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
     border-radius: 6.25rem;
     background: var(--Purple-55, #4A2CED);
