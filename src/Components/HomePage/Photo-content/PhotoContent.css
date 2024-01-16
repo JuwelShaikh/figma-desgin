@@ -1,13 +1,13 @@
 .main-content {
-    width: 100%;
     height: auto;
     overflow: hidden;
     margin: 0 0.1px;
 }
 
 .p-container {
+    /* width: 100%; */
+    
     position: relative;
-    width: 80%;
     display: flex;
 }
 

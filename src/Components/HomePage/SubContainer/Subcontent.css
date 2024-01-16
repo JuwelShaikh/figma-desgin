@@ -1,6 +1,6 @@
 
 .main-content{
-    width: 100%;
+    /* width: 100%; */
     border-top: 1px solid var(--Dark-12, #1C1C21);
     border-bottom: 1px solid var(--Dark-12, #1C1C21);
     background: var(--Dark-06, #0E0E10);

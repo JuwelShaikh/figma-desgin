@@ -1,10 +1,12 @@
 .header {
-    width: 100%;
+    width: 87%;
     height: 10.5rem;
     border-top: 1px solid var(--Dark-12, #1C1C21);
     border-bottom: 1px solid var(--Dark-12, #1C1C21);
     display: flex;
-    justify-content: space-evenly;
+    gap: 37rem;
+    margin-left: 6rem;
+    justify-content: space-between;
     align-items: center;
 }
 
