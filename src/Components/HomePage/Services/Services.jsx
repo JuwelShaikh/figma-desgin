@@ -3,6 +3,7 @@ import '../Services/Services.css'
 import leftIcon from '../../../Images/left-icon.png';
 import rightIcon from '../../../Images/Right-icon.png';
 import arrow from '../../../Images/Arrow.png';
+import dot from '../../../Images/dot.png';
 
 const Services = () => {
     return (
@@ -29,7 +30,13 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="highlights">
-                        ........................
+                        <p>Service Highlights</p>
+                        <ol>
+                            <li><img src={dot} alt="" />Quick turnaround for you to relive the day's highlights.</li>
+                            <li><img src={dot} alt="" />A mix of candid and posed shots for a comprehensive story.</li>
+                            <li><img src={dot} alt="" />Skilled photographers who know how to seize the moment.</li>
+                            <li><img src={dot} alt="" />Coverage for weddings, parties, corporate functions, and more.</li>
+                        </ol>
                     </div>
                 </div>
                 <div className="eRightSide">right</div>
