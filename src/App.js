@@ -1,4 +1,5 @@
 import './App.css';
+import Faq from './Components/HomePage/FAQ/Faq';
 import Head from './Components/HomePage/Header/Head';
 import Navbar from './Components/HomePage/NavBar/Navbar';
 import PhotoContent from './Components/HomePage/Photo-content/PhotoContent';
@@ -17,6 +18,7 @@ function App() {
       <SelfContent/>
       <Services/>
       <Protfolio/>
+      <Faq/>
     </div>
   );
 }

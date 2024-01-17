@@ -1,0 +1,30 @@
+.faq-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-head {
+    border: 1px solid white;
+    width: 80%;
+    text-align: start;
+    padding-bottom: 2rem;
+}
+
+.faq-head>span {
+    color: var(--Grey-50, #797C86);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+.faq-head>p {
+    color: var(--Absolute-White, #FFF);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
