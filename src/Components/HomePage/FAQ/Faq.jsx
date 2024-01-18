@@ -8,6 +8,9 @@ const Faq = () => {
                 <span>faq</span>
                 <p>Frequently Asked Questions</p>
             </div>
+            <div className="faq-content">
+                
+            </div>
         </div>
     );
 };
