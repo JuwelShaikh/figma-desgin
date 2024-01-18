@@ -31,4 +31,6 @@
     width: 80%;
     padding-bottom: 2rem;
     border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
 }
