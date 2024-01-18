@@ -6,13 +6,13 @@ const SingleQuestion = ({ title, info }) => {
     const [showInfo, setShowInfo] = useState(false);
     return (
         <div className='ques'>
-            <header>
+            <div className='accordion-title' onClick={() => setShowInfo(!showInfo)}>
                 <h4>{title}</h4>
-                <button className='btn-f' onClick={() => setShowInfo(!showInfo)}>
+                <span className='btn-f' >
                     {showInfo ? <AiOutlineMinus/> : <AiOutlinePlus/>}
-                </button>
-            </header>
-                {showInfo && <p>{info}</p>}
+                </span>
+            </div>
+                 <p className={`accordion-details ${showInfo ? 'show' : 'close'}`}>{info}</p>
         </div>
     );
 };
