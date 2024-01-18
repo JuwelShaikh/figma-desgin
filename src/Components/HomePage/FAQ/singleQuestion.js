@@ -1,4 +1,4 @@
-
+import './Faq.css'
 import { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 
