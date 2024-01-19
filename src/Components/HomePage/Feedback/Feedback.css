@@ -1,0 +1,29 @@
+.feed-main {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.feed-head {
+    width: 80%;
+    border: 1px solid white;
+    text-align: start;
+}
+
+.head-text>span {
+    color: var(--Grey-50, #797C86);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.head-text>h4 {
+    color: var(--Absolute-White, #FFF);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
