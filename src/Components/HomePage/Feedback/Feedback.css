@@ -2,6 +2,8 @@
     margin: 5rem 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .feed-head {
@@ -26,4 +28,31 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.rev {
+    padding-top: 0;
+}
+
+.details>div>span {
+    color: var(--Grey-40, #62646C);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+}
+
+.details>div>p {
+    color: var(--Grey-80, #CACACE);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 2.625rem */
 }
