@@ -8,7 +8,6 @@
 
 .feed-head {
     width: 80%;
-    border: 1px solid white;
     text-align: start;
 }
 
@@ -90,4 +89,36 @@
     gap: 0.6rem;
     border-radius: 6.25rem;
     border: 1px solid var(--Dark-12, #1C1C21);
+}
+
+.rev-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name-rev {
+    color: var(--Grey-90, #E4E4E6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.address-rev {
+    margin-top: 0.5rem;
+    color: var(--Grey-40, #62646C);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.review {
+    color: var(--Grey-90, #E4E4E6);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: start;
 }

@@ -31,10 +31,10 @@ const Feedback = () => {
                 <div className="rev-card">
                     <div className='rev-head'>
                         <div>
-                            <p>Emily Johnson</p>
-                            <p>USA, California</p>
+                            <p className='name-rev'>Emily Johnson</p>
+                            <p className='address-rev'>USA, California</p>
                         </div>
-                        <div>
+                        <div className='rev-links'>
                             <img src={fb} alt="" />
                             <img src={tw} alt="" />
                             <img src={link} alt="" />
@@ -47,17 +47,17 @@ const Feedback = () => {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                     </div>
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi voluptates!
+                    <div className='review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores !
                     </div>
                 </div>
                 <div className="rev-card">
                     <div className='rev-head'>
                         <div>
-                            <p>Emily Johnson</p>
-                            <p>USA, California</p>
+                            <p className='name-rev'>Emily Johnson</p>
+                            <p className='address-rev'>USA, California</p>
                         </div>
-                        <div>
+                        <div className='rev-links'>
                             <img src={fb} alt="" />
                             <img src={tw} alt="" />
                             <img src={link} alt="" />
@@ -70,17 +70,18 @@ const Feedback = () => {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                     </div>
-                    <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi voluptates!
+                    <div className='review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi!
                     </div>
                 </div>
                 <div className="rev-card">
                     <div className='rev-head'>
                         <div>
-                            <p>Emily Johnson</p>
-                            <p>USA, California</p>
+                            <p className='name-rev'>Emily Johnson</p>
+                            <p className='address-rev'>USA, California</p>
                         </div>
-                        <div>
+                        <div
+                        className='rev-links'>
                             <img src={fb} alt="" />
                             <img src={tw} alt="" />
                             <img src={link} alt="" />
@@ -93,7 +94,7 @@ const Feedback = () => {
                         <img src={star} alt="" />
                         <img src={star} alt="" />
                     </div>
-                    <div>
+                    <div className='review'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi voluptates!
                     </div>
                 </div>
