@@ -8,6 +8,7 @@ import Protfolio from './Components/HomePage/Protfolio/Protfolio';
 import SelfContent from './Components/HomePage/SelfContent/SelfContent';
 import Services from './Components/HomePage/Services/Services';
 import SubContent from './Components/HomePage/SubContainer/SubContent';
+import SubFooter from './Components/HomePage/SubFooter/SubFooter';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Protfolio/>
       <Faq/>
       <Feedback/>
+      <SubFooter/>
     </div>
   );
 }
