@@ -29,7 +29,7 @@ const Feedback = () => {
             </div>
             <div className="review-content">
                 <div className="rev-card">
-                    <div>
+                    <div className='rev-head'>
                         <div>
                             <p>Emily Johnson</p>
                             <p>USA, California</p>
@@ -52,7 +52,7 @@ const Feedback = () => {
                     </div>
                 </div>
                 <div className="rev-card">
-                <div>
+                    <div className='rev-head'>
                         <div>
                             <p>Emily Johnson</p>
                             <p>USA, California</p>
@@ -74,7 +74,8 @@ const Feedback = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi voluptates!
                     </div>
                 </div>
-                <div className="rev-card"><div>
+                <div className="rev-card">
+                    <div className='rev-head'>
                         <div>
                             <p>Emily Johnson</p>
                             <p>USA, California</p>
@@ -94,7 +95,9 @@ const Feedback = () => {
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid odit facere esse asperiores doloremque accusantium praesentium voluptatem quasi voluptates!
-                    </div></div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     );
