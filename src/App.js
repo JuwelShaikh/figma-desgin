@@ -1,6 +1,7 @@
 import './App.css';
 import Faq from './Components/HomePage/FAQ/Faq';
 import Feedback from './Components/HomePage/Feedback/Feedback';
+import Footer from './Components/HomePage/Footer/Footer';
 import Head from './Components/HomePage/Header/Head';
 import Navbar from './Components/HomePage/NavBar/Navbar';
 import PhotoContent from './Components/HomePage/Photo-content/PhotoContent';
@@ -23,6 +24,7 @@ function App() {
       <Faq/>
       <Feedback/>
       <SubFooter/>
+      <Footer/>
     </div>
   );
 }
