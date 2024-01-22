@@ -15,7 +15,7 @@
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--Dark-12, #1C1C21);
+
 }
 
 .foo-left-side>p {
@@ -26,4 +26,25 @@
     line-height: normal;
     text-transform: uppercase;
     padding-bottom: 3rem;
+}
+
+.foo-right-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--Dark-12, #1C1C21);
+    padding: 3rem 2rem;
+}
+
+.foo-list {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+
+}
+
+.foo-list>ul {
+    list-style-type: none;
+
 }

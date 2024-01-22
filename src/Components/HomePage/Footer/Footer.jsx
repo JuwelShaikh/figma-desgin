@@ -16,14 +16,44 @@ const Footer = () => {
                     <div className="h-right">
                         <h1>Let's <button className='h-btn'><img src={arrow} alt="" /></button></h1>
                         <h1>work together</h1>
-
                     </div>
                 </div>
                 <div className="foo-right-side">
-
+                    <div className='foo-list'>
+                        <ul>
+                            <li>Home</li>
+                            <li>About me</li>
+                            <li>My Works</li>
+                            <li>Testimonials</li>
+                        </ul>
+                        <ul>
+                            <li>Clients</li>
+                            <li>Nokia</li>
+                            <li>Samsung</li>
+                            <li>Microsoft</li>
+                            <li>Walton</li>
+                            <li>Givson</li>
+                        </ul>
+                        <ul>
+                            <li>Protfolio</li>
+                            <li>Nokia</li>
+                            <li>Samsung</li>
+                            <li>Microsoft</li>
+                            <li>Walton</li>
+                            <li>Givson</li>
+                            <li>Walton</li>
+                            <li>Givson</li>
+                        </ul>
+                        <ul>
+                            <li>Services</li>
+                            <li>Nokia</li>
+                            <li>Samsung</li>
+                            <li>Microsoft</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
