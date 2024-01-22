@@ -9,7 +9,7 @@ const FooterUnder = () => {
         <div className='uner-main'>
             <div className="un-wrapper">
             <div className='p-first'>
-                <p>Terms & Conditions</p>
+                <p className='border-r'>Terms & Conditions</p>
                 <p>Privacy Policy</p>
             </div>
             <div>
