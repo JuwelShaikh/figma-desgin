@@ -7,7 +7,7 @@
     width: 80%;
     display: flex;
     align-items: flex-start;
-    border: 1px solid var(--Dark-12, #1C1C21);
+    border-bottom: 1px solid var(--Dark-12, #1C1C21);
 }
 
 .foo-left-side {
@@ -62,5 +62,6 @@
 .design{
     width: 10rem;
     height: 10rem;
+    margin-top: 4rem;
     
 }
