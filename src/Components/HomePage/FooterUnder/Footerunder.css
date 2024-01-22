@@ -1,0 +1,23 @@
+.uner-main {
+    display: flex;
+    justify-content: center;
+}
+
+.un-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.un-wrapper>div>p {
+    color: var(--Grey-50, #797C86);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 80%;
+}
+.p-first{
+    display: flex;
+    gap: 1rem;
+}
