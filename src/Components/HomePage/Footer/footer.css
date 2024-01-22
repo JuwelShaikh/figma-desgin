@@ -1,21 +1,19 @@
 .footer-main {
     display: flex;
-
     justify-content: center;
 }
 
 .wrapper {
     width: 80%;
     display: flex;
-    border: 1px solid white;
     align-items: flex-start;
+    border: 1px solid var(--Dark-12, #1C1C21);
 }
 
 .foo-left-side {
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-
 }
 
 .foo-left-side>p {
@@ -32,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid var(--Dark-12, #1C1C21);
+    border-left: 1px solid var(--Dark-12, #1C1C21);
     padding: 3rem 2rem;
 }
 
@@ -60,4 +58,9 @@
 }
 .foo-list>ul>*{
     margin-bottom: 0.3rem;
+}
+.design{
+    width: 10rem;
+    height: 10rem;
+    margin: 4rem 0;
 }

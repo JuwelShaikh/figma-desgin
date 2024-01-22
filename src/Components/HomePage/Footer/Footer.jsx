@@ -8,8 +8,7 @@ import arrow from '../../../Images/Arrow.png';
 const Footer = () => {
     return (
         <div className='footer-main'>
-            {/* <img src={design} alt="" />
-            <img src={design2} alt="" /> */}
+            <img className='design' src={design} alt="" />
             <div className="wrapper">
                 <div className="foo-left-side">
                     <p>A more meaningful home for photography</p>
@@ -53,6 +52,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <img className='design' src={design2} alt="" />
         </div >
     );
 };
