@@ -21,13 +21,13 @@ const Footer = () => {
                 <div className="foo-right-side">
                     <div className='foo-list'>
                         <ul>
-                            <li>Home</li>
+                            <li className='list-head'>Home</li>
                             <li>About me</li>
                             <li>My Works</li>
                             <li>Testimonials</li>
                         </ul>
                         <ul>
-                            <li>Clients</li>
+                            <li className='list-head'>Clients</li>
                             <li>Nokia</li>
                             <li>Samsung</li>
                             <li>Microsoft</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <li>Givson</li>
                         </ul>
                         <ul>
-                            <li>Protfolio</li>
+                            <li className='list-head'>Protfolio</li>
                             <li>Nokia</li>
                             <li>Samsung</li>
                             <li>Microsoft</li>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <li>Givson</li>
                         </ul>
                         <ul>
-                            <li>Services</li>
+                            <li className='list-head'>Services</li>
                             <li>Nokia</li>
                             <li>Samsung</li>
                             <li>Microsoft</li>
