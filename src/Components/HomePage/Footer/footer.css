@@ -1,14 +1,29 @@
-.footer-main{
+.footer-main {
     display: flex;
-    
+
     justify-content: center;
 }
-.wrapper{
+
+.wrapper {
     width: 80%;
     display: flex;
     border: 1px solid white;
+    align-items: flex-start;
 }
-.foo-left-side{
+
+.foo-left-side {
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
+    border: 1px solid var(--Dark-12, #1C1C21);
+}
+
+.foo-left-side>p {
+    color: var(--Grey-50, #797C86);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
 }
