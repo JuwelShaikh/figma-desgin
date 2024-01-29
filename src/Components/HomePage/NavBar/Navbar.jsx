@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../NavBar/Navbar.css';
-import logo from '../../../Images/Logo.png'
+import logo from '../../../Images/Logo.png';
+
+
 
 const Navbar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+
     return (
         <div className="n-container">
             <div className='navBar'>
+                <div className='n-toggle'>
+                    <button onClick={() => setIsMenuOpen(!isMenuOpen)}>Menu</button>
+                </div>
                 <div className="n-right">
                     <img src={logo} alt="" />
                 </div>
-                <div className="n-mid">
+                <div className={`n-mid ${isMenuOpen ? 'active' : ''}`}>
                     <div>
                         <ul className="n-list">
                             <li>Home</li>

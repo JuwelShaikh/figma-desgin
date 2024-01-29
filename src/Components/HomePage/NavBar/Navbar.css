@@ -48,3 +48,43 @@
 .n-left>button:hover{
     background: var(--Dark-12, #313134);
 }
+.n-toggle{
+    display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 450px) {
+    .navBar {
+        width: 100%;
+    }
+    .n-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .n-mid{
+        position: absolute;
+        top: 5rem;
+        left: -100%;
+        /* right: 0; */
+        background: black;
+        border: 1px solid white;
+        padding: 1rem;
+        z-index: 50;
+        transition: all .5s;
+    }
+    .n-mid.active{
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        background: black;
+        border: 1px solid white;
+        padding: 1rem;
+        z-index: 50;
+    }
+    .n-toggle{
+        display: block;
+    }
+}

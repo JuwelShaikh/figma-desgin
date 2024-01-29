@@ -43,3 +43,19 @@
     border-radius: 6.25rem;
     background: var(--Purple-55, #4A2CED);
 }
+
+/* Responsive */
+
+@media screen and (max-width:450px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .h-left {
+        width: 100%;
+    }
+    .h-right {
+        width: 100%;
+    }
+}
