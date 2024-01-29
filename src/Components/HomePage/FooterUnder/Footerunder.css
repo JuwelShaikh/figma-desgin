@@ -17,11 +17,22 @@
     font-weight: 200;
     line-height: 80%;
 }
-.p-first{
+
+.p-first {
     display: flex;
     gap: 1rem;
 }
-.border-r{
+
+.border-r {
     border-right: 1px solid #1C1C21;
     padding-right: 1rem;
+}
+
+@media screen and (max-width:450px) {
+    .un-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
 }

@@ -8,20 +8,20 @@ const FooterUnder = () => {
     return (
         <div className='uner-main'>
             <div className="un-wrapper">
-            <div className='p-first'>
-                <p className='border-r'>Terms & Conditions</p>
-                <p>Privacy Policy</p>
-            </div>
-            <div>
-                <div className='rev-links'>
-                    <img src={fb} alt="" />
-                    <img src={tw} alt="" />
-                    <img src={link} alt="" />
+                <div className='p-first'>
+                    <p className='border-r'>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
                 </div>
-            </div>
-            <div>
-                <p>© 2024 Damien Braun Photography. All rights reserved.</p>
-            </div>
+                <div>
+                    <div className='rev-links'>
+                        <img src={fb} alt="" />
+                        <img src={tw} alt="" />
+                        <img src={link} alt="" />
+                    </div>
+                </div>
+                <div>
+                    <p>© 2024 Damien Braun Photography. All rights reserved.</p>
+                </div>
             </div>
         </div>
     );
