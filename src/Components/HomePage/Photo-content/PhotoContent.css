@@ -1,12 +1,11 @@
-.main-content {
+.p-main-content {
     height: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 0.1px;
 }
 
 .p-container {
-    /* width: 100%; */
-    
+    width: 100%;
     position: relative;
     display: flex;
 }

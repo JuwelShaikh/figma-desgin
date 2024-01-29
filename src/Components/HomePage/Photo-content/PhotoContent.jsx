@@ -9,7 +9,7 @@ import girl4 from '../../../Images/girlImage4.png'
 
 const PhotoContent = () => {
     return (
-        <div className='main-content'>
+        <div className='p-main-content'>
             <div className="p-container">
                 <div>
                     <img className="g-1" src={girl1} alt="" />

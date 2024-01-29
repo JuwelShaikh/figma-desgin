@@ -45,3 +45,8 @@
     width: max-content;
 }
 
+@media screen and(max-width:450px) {
+    .main-content{
+        width: 100%;
+    }
+}
